@@ -65,20 +65,6 @@ nav div {
 
   }
   
-
-  
-
-.images {
-    display: flex;
-    justify-content: center;
-}
-
 footer{
     margin-top: 2em;
-}
-
-.art {
-    font-size: 1em;
-    display: flex;
-    justify-content: center;
 }
