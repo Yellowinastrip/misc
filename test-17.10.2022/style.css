@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin: 1%;
+    text-decoration: underline;
+    display: grid;
+}
+.container {
+    display: flex;
+    padding: 10px;
+    background-color: #a81d1d;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+body {
+    background-color: gray;
+}
+table, th, td {
+
+    margin: 2%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.color1 {
+    background-color: red;
+
+}
+.color2 {
+    background-color: green;
+}
+.color3 {
+    background-color: violet;
+}
+.color4 {
+    background-color: yellow;
+}
+.color5 {
+    background-color: purple;
+}
+.color6 {
+    background-color: pink;
+}
+.color7 {
+    background-color: blue;
+}
+.color8 {
+    background-color: cyan;
+}
+.color9 {
+    background-color: orange;
+}
+.color10 {
+    background-color: greenyellow;
+}
+.color11 {
+    background-color: darkslateblue;
+}
+.color12 {
+    background-color: brown;
+}
+.CLICK {
+    text-align: center;
+}
