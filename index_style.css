@@ -1,0 +1,125 @@
+
+
+body {
+    background-color: rgb(102, 128, 0);
+}
+
+.title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+main{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1em;
+    border-top: 1em;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item1 {
+    background-color: red;
+}
+.item2 {
+    background-color: rgb(21, 0, 255);
+}
+.item3 {
+    background-color: rgb(0, 255, 47);
+}
+.item4 {
+    background-color: rgb(115, 0, 255);
+}
+.item5 {
+    background-color: rgb(238, 0, 255);
+}
+.item6 {
+    background-color: rgb(151, 54, 54);
+}
+.item7 {
+    background-color: rgb(0, 21, 255);
+}
+.item8 {
+    background-color: rgb(255, 106, 0);
+}
+.item9 {
+    background-color: rgb(255, 0, 179);
+}
+.item10 {
+    background-color: rgb(255, 0, 60);
+}
+.item11 {
+    background-color: rgb(0, 221, 255);
+}
+.item12 {
+    background-color: rgb(0, 255, 60);
+}
+
+
+nav {
+    background-color: lightgreen;
+}
+
+main p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+nav div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+
+@media only screen and (((max-width: 1100px) and (orientation: landscape)) or ((max-width: 1100px) and (orientation: portrait)))  {
+    body {
+      background-color: rgb(173, 230, 215);
+    }
+    nav div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 1em;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+  }
+  
+
+  
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 2em;
+}
+
+.art {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
